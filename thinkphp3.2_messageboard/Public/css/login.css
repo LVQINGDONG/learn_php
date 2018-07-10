@@ -1,0 +1,53 @@
+.main_right{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #46b8da;
+    text-align: center;
+}
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    width: 100%;
+    height: 60px;
+    background-color: #2aabd2;
+}
+.title_left{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.title_left a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.title_btn a{
+    color: white;
+    font-size: 20px;
+}
+.content{
+    width: 400px;
+    height: 350px;
+    margin-top: 30px;
+    border: 1px solid #2aabd2;
+}
+.form_input{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+}
+.title_text{
+    color: #2aabd2;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.form_a{
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.form_input_a{
+    margin-top: 10px;
+}

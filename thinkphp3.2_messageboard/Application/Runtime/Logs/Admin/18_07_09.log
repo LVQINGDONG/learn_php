@@ -1,0 +1,76 @@
+[ 2018-07-09T14:07:13+08:00 ] ::1 /web/index.php/Admin/Messageboard/showMessage.html?admin_name=%E6%9D%8E%E7%99%BD
+ERR: 1146:Table 'mydb.info_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `info_message`
+
+[ 2018-07-09T14:14:36+08:00 ] ::1 /web/index.php/Admin/Messageboard/w
+ERR: 非法操作:w
+
+[ 2018-07-09T14:14:36+08:00 ] ::1 /web/index.php/Admin/Messageboard/w
+ERR: 非法操作:w
+
+[ 2018-07-09T14:14:38+08:00 ] ::1 /web/index.php/Admin/Messageboard/w
+ERR: 非法操作:w
+
+[ 2018-07-09T14:15:50+08:00 ] ::1 /web/index.php/Admin/Messageboard/w
+ERR: 非法操作:w
+
+[ 2018-07-09T17:44:01+08:00 ] ::1 /web/index.php/Admin/Messageboard/showMessage/admin_name/%E6%9D%8E%E7%99%BD/p/1.html
+ERR: 1052:Column 'student_id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `m_id`,`m_title`,`m_content`,`m_date`,`m_replay`,`student_id` FROM `info_message` INNER JOIN info_student ON info_message.student_id=info_student.student_id  ORDER BY m_id desc LIMIT 0,2  
+
+[ 2018-07-09T18:30:30+08:00 ] ::1 /web/index.php/Admin/Messageboard/showMessage/admin_name/%E6%9D%8E%E7%99%BD/p/1.html
+ERR: 1052:Column 'student_id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `m_id`,`m_title`,`m_content`,`m_date`,`m_replay`,`student_id` FROM `info_message` INNER JOIN info_student ON info_message.student_id=info_student.student_id  ORDER BY m_id desc LIMIT 0,2  
+
+[ 2018-07-09T20:02:23+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-07-09T20:04:20+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-07-09T20:04:20+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-07-09T20:04:21+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-07-09T20:04:45+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'student_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_class` WHERE ( 1=1 AND student_id='1' ) 
+
+[ 2018-07-09T20:04:46+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'student_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_class` WHERE ( 1=1 AND student_id='1' ) 
+
+[ 2018-07-09T20:05:23+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_student` WHERE ( 1=1 AND parent_id='1' ) 
+
+[ 2018-07-09T20:05:24+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_student` WHERE ( 1=1 AND parent_id='1' ) 
+
+[ 2018-07-09T20:05:25+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_student` WHERE ( 1=1 AND parent_id='1' ) 
+
+[ 2018-07-09T20:05:26+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_student` WHERE ( 1=1 AND parent_id='1' ) 
+
+[ 2018-07-09T20:09:41+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_student` WHERE ( 1=1 AND parent_id='1' ) 
+
+[ 2018-07-09T20:09:42+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_student` WHERE ( 1=1 AND parent_id='1' ) 
+
+[ 2018-07-09T20:09:45+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_student` WHERE ( 1=1 AND parent_id='1' ) 
+
+[ 2018-07-09T20:10:00+08:00 ] ::1 /web/index.php/Admin/Messageboard/update/m_id/5
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `info_student` WHERE ( 1=1 AND parent_id='1' ) 
+

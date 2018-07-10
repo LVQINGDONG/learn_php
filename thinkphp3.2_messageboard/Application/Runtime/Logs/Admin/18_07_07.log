@@ -1,0 +1,7 @@
+[ 2018-07-07T13:01:57+08:00 ] ::1 /web/index.php/Admin/Messageboard/showMessage.html
+ERR: 无法加载控制器:Messageboard
+
+[ 2018-07-07T16:49:43+08:00 ] ::1 /web/index.php/Admin/Messageboard/showMessage.html?admin_name=%E5%B0%8F%E5%BC%A0
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT `m_id`,`m_title`,`m_content`,`m_replay`,`m_date`,`m_student_name`,`m_student_img` FROM `info_message` ORDER BY id LIMIT 0,1  
+

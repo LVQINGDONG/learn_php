@@ -1,0 +1,20 @@
+.main{
+    width: 800px;
+    height: 580px;
+    border: 1px solid #46b8da;
+    text-align: center;
+}
+.con{
+    width: 400px;
+    height: 460px;
+    margin-top: 30px;
+    border: 1px solid #2aabd2;
+}
+.info_text{
+    color: #2aabd2;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.select_name{
+    color: #eee;
+}

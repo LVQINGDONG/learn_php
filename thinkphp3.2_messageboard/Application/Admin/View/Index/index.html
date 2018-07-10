@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="__PUBLIC__/js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <style>
+        .wrap{
+            width: 900px;
+            height: 500px;
+            border: 1px solid #2aabd2;
+            position: relative;
+        }
+        *{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .row{
+            float: left;
+            margin-top: 40px;
+            margin-left: 100px;
+        }
+        .row_img{
+            margin-right: 40px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <include file="Index/header"/>
+
+    <div class="row">
+        <div class=" col-md-3 row_img">
+            <div class="thumbnail">
+                <img src="__PUBLIC__/images/3.jpg"
+                     alt="通用的占位符缩略图">
+                <div class="caption">
+                    <h3>学生留言管理</h3>
+                    <p>谈天说地</p>
+                    <p>
+                        <a href="{:U('Messageboard/showMessage')}?admin_name={$admin_name}" class="btn btn-primary" role="button">
+                            管理学生留言
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 row_img">
+            <div class="thumbnail">
+                <img src="__PUBLIC__/images/1.jpg"
+                     alt="通用的占位符缩略图">
+                <div class="caption">
+                    <h3>学生信息列表</h3>
+                    <p>查看学生的信息</p>
+                    <p>
+                        <a href="{:U('Student/showList')}" class="btn btn-primary" role="button">
+                            管理学生信息
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 row_img">
+            <div class="thumbnail">
+                <img src="__PUBLIC__/images/2.jpg"
+                     alt="通用的占位符缩略图">
+                <div class="caption">
+                    <h3>专业信息列表</h3>
+                    <p>查看专业和班级的信息</p>
+                    <p>
+                        <a href="{:U('Major/showList')}" class="btn btn-primary" role="button">
+                            管理专业信息
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="__PUBLIC__/js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <style>
+        *{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .main_right{
+            width: 800px;
+            height: 500px;
+        }
+        .table th{
+            width: 200px;
+        }
+        .caozuo{
+            border-left: 1px solid black;
+            text-align: center;
+        }
+        .panel-title{
+            color: black;
+        }
+        .info_title{
+            color:white;
+        }
+        .main_right_tita{
+            text-align: center;
+        }
+        .info_panel{
+            padding-bottom: -10px;
+        }
+        .add_major{
+            float: left;
+            margin-left: 250px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="main_right">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4 class="info_title">专业信息列表</h4>
+        </div>
+        <div class="panel-body">
+            <div class="form-group form-group-md" >
+                <div class="col-md-4">专业</div>
+                <div class="col-md-4">班级</div>
+                <div class="caozuo col-md-4">
+                    操作
+                </div>
+            </div>
+            <br>
+            <div class="form-group form-group-md info_panel" >
+                <notempty name="major_info">
+                    <foreach name="major_info" item="v">
+                        <foreach name="v.Class" item="vv" key="k">
+                            <div class="col-md-4">{$v.major_name}</div>
+                            <div class="col-md-4">
+                                <a href="__MODULE__/Student/showList/class_id/{$vv.class_id}">{$vv.class_name}</a>
+                            </div>
+                            <div class="col-md-4 caozuo">
+                                <a href="__CONTROLLER__/update/major_id/{$v.major_id}">编辑</a>
+                                &nbsp;&nbsp;
+                                <a href="__CONTROLLER__/delete/major_id/{$v.major_id}/class_id/{$vv.class_id}"
+                                   onclick="javascript:if (confirm('确认删除此信息吗？')){
+                                      return true;
+                                }
+                                return false;">删除</a>
+                            </div>
+                        </foreach>
+                    </foreach>
+                </notempty>
+            </div>
+        <div class="add_major">
+            <a href="__CONTROLLER__/add" class="main_right_tita">添加专业和班级</a>
+        </div>
+        <div class="add_major">
+            <a href="{:U('Index/index')}" class="main_right_tita">返回首页</a>
+        </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

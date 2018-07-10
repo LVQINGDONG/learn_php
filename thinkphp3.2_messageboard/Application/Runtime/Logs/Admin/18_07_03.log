@@ -1,0 +1,15 @@
+[ 2018-07-03T08:29:12+08:00 ] ::1 /web/index.php/Admin/Major/_MODULE_/Student/showList/class_id/2
+ERR: 非法操作:_MODULE_
+
+[ 2018-07-03T09:17:50+08:00 ] ::1 /web/index.php/Admin/Student/showList
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2018-07-03T10:26:11+08:00 ] ::1 /web/index.php/Admin/Student/_CONTROLLER_/add/class_id/3
+ERR: 非法操作:_CONTROLLER_
+
+[ 2018-07-03T10:27:26+08:00 ] ::1 /web/index.php/Admin/Student/_CONTROLLER_/add/class_id/3
+ERR: 非法操作:_CONTROLLER_
+
+[ 2018-07-03T21:01:24+08:00 ] ::1 /web/Admin/View/Index
+ERR: 无法加载控制器:View
+

@@ -1,0 +1,16 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap{
+    width: 900px;
+    height: 700px;
+    border: 1px solid black;
+    position: relative;
+}
+.login_success{
+    color: white;
+    position: absolute;
+    top: 15px;
+    right:20px;
+}

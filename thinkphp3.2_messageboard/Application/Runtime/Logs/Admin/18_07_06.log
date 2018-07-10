@@ -1,0 +1,12 @@
+[ 2018-07-06T10:33:04+08:00 ] ::1 /web/index.php/Admin/Index/register.html
+ERR: 1146:Table 'mydb.info_validate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `info_validate`
+
+[ 2018-07-06T10:34:20+08:00 ] ::1 /web/index.php/Admin/Index/register.html
+ERR: 1146:Table 'mydb.info_validate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `info_validate`
+
+[ 2018-07-06T14:41:00+08:00 ] ::1 /web/index.php/Admin/Index/reset.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : UPDATE `info_admin` SET `aid`='0',`aname`='haha',`apwd`='1789',`aphone`='13119890489' WHERE `aname` = 'haha' AND `aphone` = '13119890489'
+

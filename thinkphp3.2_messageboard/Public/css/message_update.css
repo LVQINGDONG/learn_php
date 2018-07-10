@@ -1,0 +1,48 @@
+img{
+    width: 30px;
+    height: 30px;
+}
+.student_info{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.info_text{
+    float: left;
+    color: #2aabd2;
+}
+.student_img,.student_name{
+    float: left;
+    margin-left: 20px;
+    color: #2aabd2;
+}
+.m_date{
+    float: left;
+    color: #2aabd2;
+    font-size: 13px;
+}
+.form_input1{
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.form_input2{
+    width: 600px;
+    margin-top: 10px;
+}
+.form_input2 textarea{
+    height: 60px;
+}
+.btn_a{
+    float: right;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 5px;
+}
+.btn_aa{
+ float: right;
+}
